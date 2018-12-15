@@ -1,0 +1,6 @@
+/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/breakpad-core.dir
+/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/external/libbreakpad/CMakeFiles/edit_cache.dir
+/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/external/libbreakpad/CMakeFiles/rebuild_cache.dir
+/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/external/libbreakpad/CMakeFiles/breakpad.dir

@@ -1,0 +1,181 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/CMakeLists.txt",
+		"/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "S", "c" ],
+	"cleanCommands" : 
+	[
+		"/home/innovator/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc", "cpp" ],
+	"libraries" : 
+	{
+		"breakpad-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "breakpad",
+			"buildCommand" : "/home/innovator/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a --target breakpad",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/crash_generation/crash_generation_client.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/dump_writer_common/thread_info.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/dump_writer_common/ucontext_reader.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/handler/exception_handler.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/handler/minidump_descriptor.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/log/log.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/microdump_writer/microdump_writer.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/minidump_writer/linux_dumper.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/minidump_writer/linux_ptrace_dumper.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/linux/minidump_writer/minidump_writer.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/client/minidump_file_writer.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Werror=implicit-function-declaration -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/convert_UTF.c",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/md5.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/string_conversion.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/elfutils.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/file_id.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/guid_creator.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/linux_libc_support.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/memory_mapped_file.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/linux/safe_readlink.cc",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Werror=implicit-function-declaration -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/breakpad_getcontext.S",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a/external/libbreakpad/libbreakpad.a",
+			"toolchain" : "2180973401847003466"
+		},
+		"breakpad-core-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "breakpad-core",
+			"buildCommand" : "/home/innovator/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a --target breakpad-core",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/home/innovator/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 --sysroot=/home/innovator/Android/Sdk/ndk-bundle/sysroot  -DENABLE_INPROCESS -DENABLE_OUTOFPROCESS -Dbreakpad_core_EXPORTS -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src -I/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/external/libbreakpad/src/common/android/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/android/support/include -isystem /home/innovator/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /home/innovator/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -std=c++11  -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/src/main/cpp/breakpad.cpp",
+					"workingDirectory" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/innovator/AndroidStudioProjects/MyBreakPadProject/Chapter01/breakpad-build/build/intermediates/cmake/debug/obj/armeabi-v7a/libbreakpad-core.so",
+			"toolchain" : "2180973401847003466"
+		}
+	},
+	"toolchains" : 
+	{
+		"2180973401847003466" : 
+		{
+			"cCompilerExecutable" : "/home/innovator/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/innovator/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}
